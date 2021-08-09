@@ -1,0 +1,7 @@
+Folder for binaries:
+	- mkgmap.jar
+	- splitter.jar
+	- osmosis 
+	- osmconvert (wget -O - http://m.m.i24.cc/osmconvert.c |cc -x c - -lz -o osmconvert )
+
+

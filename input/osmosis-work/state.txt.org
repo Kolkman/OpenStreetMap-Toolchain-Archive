@@ -1,0 +1,5 @@
+#original-source: http://planet.openstreetmap.org/replication/day/000/001/937.state.txt
+#generated-by: https://replicate-sequences.osm.mazdermind.de/?Y=2018&m=01&d=01&H=22&i=20&s=28&stream=day
+#Mon Jan 01 00:06:10 UTC 2018
+sequenceNumber=1937
+timestamp=2018-01-01T00\:00\:00Z

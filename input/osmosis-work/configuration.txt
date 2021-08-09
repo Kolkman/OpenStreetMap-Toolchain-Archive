@@ -1,0 +1,9 @@
+# SEE https://wiki.openstreetmap.org/wiki/HowTo_minutely_hstore
+# The URL of the directory containing change files.
+baseUrl=http://planet.openstreetmap.org/replication/day
+
+# Defines the maximum time interval in seconds to download in a single invocation.
+# Setting to 0 disables this feature.
+maxInterval = 0
+
+

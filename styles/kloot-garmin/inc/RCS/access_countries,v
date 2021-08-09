@@ -1,0 +1,41 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2015.08.23.06.42.22;	author olaf;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@# The Netherlands (NLD)
+
+highway=trunk & mkgmap:country=NLD		{ add bicycle=no; add foot=no }
+highway=cycleway & mkgmap:country=NLD	{ add foot=yes }
+highway=bridleway & mkgmap:country=NLD	{ add foot=yes }
+
+# Belgium (BEL)
+
+highway=trunk & mkgmap:country=BEL		{ add bicycle=no; add foot=no }
+highway=cycleway & mkgmap:country=BEL	{ add foot=yes }
+highway=bridleway & mkgmap:country=BEL	{ add foot=yes }
+
+# Spain (ESP)
+
+highway=trunk & mkgmap:country=ESP	{ add bicycle=yes; add foot=yes }
+highway=bridleway & mkgmap:country=ESP	{ add bicycle=yes; add foot=yes }
+
+
+@

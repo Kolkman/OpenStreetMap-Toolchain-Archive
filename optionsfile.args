@@ -1,0 +1,55 @@
+#
+# Default options for all my maps
+#
+
+max-jobs:
+#lower-case    "DON'T use as this will produce W.... K..... type of information
+
+
+latin1
+# allow non-ascii characters to be displayed (e.g. è)
+
+
+
+
+drive-on-right
+
+
+remove-short-arcs
+name-tag-list: name:nl,int_name,name:en,name,name:fr,name:de,place_name
+#generate-sea=extend-sea-sectors,close-gaps=300000,floodblocker
+
+
+#generate-sea: land-tag=natural=background
+precomp-sea:  sea.zip
+#bounds:  bounds.zip
+
+# Bounds is generated
+bounds=./bounds
+
+location-autofill: is_in,nearest
+
+
+housenumbers
+
+tdbfile
+code-page: 1252
+show-profiles: 0
+min-size-polygon: 8
+polygon-size-limits=17:2, 15:0
+merge-lines
+add-pois-to-areas
+add-pois-to-lines
+road-name-pois=0x640a
+link-pois-to-ways
+make-opposite-cycleways
+process-destination
+process-exits
+preserve-element-order
+keep-going
+net
+route 
+index
+nsis
+gmapsupp
+copyright-message: Map data © Openstreetmap.org
