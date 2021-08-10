@@ -76,6 +76,10 @@ bounds: work/boundaries.o5m
 		$@
 	touch bounds
 
+
+sea.zip:
+	${FETCH} http://osm.thkukuk.de/data/sea-latest.zip && move sea-latest.zip sea.zip
+
 #bounds:
 #	${FETCH} http://osm2.pleiades.uni-wuppertal.de/bounds/latest/bounds.bzip2
 #	bunzip2 bounds.bizip2
@@ -136,4 +140,4 @@ input/${INPUT}: input/changes.osc
 
 
 clean:
-	rm -rf bounds splitted logs output work
+	rm -rf bounds splitted logs output work sea.zip
